@@ -1,0 +1,8 @@
+URL do catalogo oficial da yost labs:
+
+https://yostlabs.com/3-space-sensors/
+
+
+repositorio basico da organização lara:
+
+https://github.com/lara-unb/imu_yostlab_basics
