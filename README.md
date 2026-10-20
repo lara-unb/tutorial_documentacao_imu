@@ -77,7 +77,7 @@ Utilize os botões destacados na imagem da etapa anterior.
 
 ![Janela Data Charts, com as seleções dos dados 1, Logging Options 2 e Start Logging 6](/tutoriais/primeira_coleta/imagens/graficos_coleta.png)
 
-![Janela Logging Options, com File Pathname na parte superior, Use system timestamp 4 e Save 5](file:///tutoriais/primeira_coleta/imagens/configuracao_coleta.png?msec=1792540303828)
+![Janela Logging Options, com File Pathname na parte superior, Use system timestamp 4 e Save 5](/tutoriais/primeira_coleta/imagens/configuracao_coleta.png)
 
 4. **Defina o arquivo de saída:** Na janela **Logging Options**, utilize o campo **File Pathname** e o botão **...** para escolher a pasta e o nome do arquivo `.txt` em que deseja salvar os dados.
 5. **Configure o registro de tempo:** Na seção **Timestamping**, selecione **Use system timestamp (4)**.
