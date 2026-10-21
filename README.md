@@ -40,9 +40,9 @@ Existem dois dongles: o **Wi-Fi**, à esquerda na imagem, e o **Bluetooth**, à 
 
 Existem dois modelos de IMU: o **Mini (modelo novo)**, à esquerda na imagem, e o **Wireless (modelo antigo)**, à direita.
 
-1. **Ligue a IMU Mini:** Pressione e segure o **botão superior (1)** por 1 a 2 segundos. Para desligar, segure o mesmo botão por cerca de 2 segundos.
-2. **Ligue a IMU Wireless:** Primeiro, coloque a alavanca localizada na lateral inferior esquerda do sensor na posição superior. Em seguida, pressione o **botão da direita (3)** por cerca de 2 segundos. Para desligar, abaixe a alavanca lateral.
-3. **Carregue a bateria, se necessário:** Caso a IMU não ligue, conecte-a ao computador com um cabo USB. A IMU Mini possui entrada Micro USB, enquanto a Wireless possui entrada **Mini USB (2)**. O LED do sensor pisca durante o carregamento. Quando a carga estiver completa, o LED para de piscar e permanece verde. Desconecte o cabo e ligue o sensor.
+1. **Para ligar a IMU Mini:** Pressione e segure o **botão superior (1)** por 1 a 2 segundos, até que o LED acenda. Para desligar, segure o mesmo botão por cerca de 2 segundos, até que o LED desligue.
+1.1. **Para ligar a IMU Wireless:** Primeiro, coloque a alavanca localizada na lateral inferior esquerda do sensor na posição superior. Em seguida, pressione o **botão da direita (3)** por cerca de 2 segundos, até o LED acender. Para desligar, abaixe a alavanca lateral.
+2. **Carregue a bateria, se necessário:** Caso a IMU não ligue, conecte-a ao computador com um cabo USB. A IMU Mini possui entrada Micro USB, enquanto a Wireless possui entrada **Mini USB (2)**. O LED do sensor pisca durante o carregamento. Quando a carga estiver completa, o LED para de piscar e permanece verde. Desconecte o cabo e ligue o sensor.
 
 ![IMUs Mini e Wireless, com o botão superior da Mini 1, a entrada Mini USB da Wireless 2 e seu botão direito 3](/tutoriais/primeira_coleta/imagens/imus.png)
 
