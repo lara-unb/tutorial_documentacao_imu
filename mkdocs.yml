@@ -1,0 +1,90 @@
+site_name: Kit IMU Yost Labs
+site_description: Documentação do kit de IMUs 3-Space (Yost Labs) do Laboratório de Automação e Robótica da Universidade de Brasília.
+site_author: Squad IMU · LARA/UnB
+site_url: https://lara-unb.github.io/tutorial_documentacao_imu/
+repo_url: https://github.com/lara-unb/tutorial_documentacao_imu
+repo_name: lara-unb/tutorial_documentacao_imu
+edit_uri: ""
+copyright: Laboratório de Automação e Robótica (LARA) · Universidade de Brasília
+exclude_docs: |
+  hooks/
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Mudar para o tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para o tema claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - assets/extra.css
+
+hooks:
+  - docs/hooks/tutoriais.py
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      lang: pt
+
+nav:
+  - Início: index.md
+  - Iniciante:
+      - iniciante/index.md
+      - Primeira coleta: tutoriais/primeira_coleta/primeira_coleta_tutorial.md
+  - Intermediário:
+      - intermediario/index.md
+      - Instalação da API e da biblioteca: intermediario/instalacao.md
+      - Leitura de uma IMU: intermediario/uma-imu.md
+      - Leitura de duas IMUs: intermediario/duas-imus.md
+  - Avançado:
+      - avancado/index.md
+      - Várias IMUs com OpenSense: avancado/opensense.md
+      - IMU no ROS: avancado/ros.md
+      - IMU com o estimulador: avancado/estimulador.md
+  - Referência: referencia/index.md
+  - Como contribuir: contribuir.md
+  - Equipe: equipe.md
